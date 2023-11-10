@@ -22,15 +22,15 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to A or Z to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to A or Y to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
-	{ 
+	{
 		if (letter < 'a' || letter > 'z') // not a lower case letter
 		{
 			std::cout << "You need to select a letter from A to Z" << std::endl;
-			return 0; 
-		}		
+			return 0;
+		}
 	}
 	if (letter == 'a' || letter == 'A') // written by Pete
 	{
@@ -76,6 +76,29 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "Bahamas, Bahrain, Barbados" << std::endl;
+		}
+	}
+	if (letter == 'y' || letter == 'Y') //written by Kacie
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no ys in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no ys in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no ys in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no ys in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Yemen Arabian Pennisula" << std::endl;
 		}
 	}
 	if (letter == 'z' || letter == 'Z') // written by Pete
