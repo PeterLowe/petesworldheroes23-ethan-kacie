@@ -55,7 +55,7 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}
-	if (letter == 'b' || letter = 'B') // written by Ethan
+	if (letter == 'b' || letter == 'B') // written by Ethan
 	{
 		if (region == 1)
 		{
